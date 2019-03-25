@@ -2,7 +2,6 @@
 
 const kafka = require('kafka-node');
 const config = require('./config');
-const { runSinkConnector, ConverterFactory } = require("sequelize-kafka-connect");
 var avro = require('avsc')
 
 var KeyedMessage = kafka.KeyedMessage;

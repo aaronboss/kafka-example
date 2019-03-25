@@ -16,7 +16,7 @@
     "avsc": "^5.4.7",
     "body-parser": "^1.18.3",
     "kafka-avro": "^1.2.0",
-    "kafka-node": "^2.4.1",
-    "nodemon": "^1.17.3"
+    "kafka-node": "^2.6.1",
+    "nodemon": "^1.18.10"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "kafka-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node producer.app.js",
+    "producer": "nodemon producer.app.js",
+    "consumer": "nodemon consumer.app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.4.7",
+    "body-parser": "^1.18.3",
+    "kafka-avro": "^1.2.0",
+    "kafka-node": "^2.4.1",
+    "nodemon": "^1.17.3"
+  }
+}
